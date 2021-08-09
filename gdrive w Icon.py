@@ -29,7 +29,7 @@ name_label.grid(row=140, column=0)
 drivename = Entry(gdrive, width=15)
 drivename.grid(row=140, column=100)
 
-mail_label = Label(gdrive, text = "Your mail : ")
+mail_label = Label(gdrive, text = "Your gmail : ")
 mail_label.grid(row=141)
 
 mail = Entry(gdrive, width=20)
