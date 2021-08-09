@@ -5,7 +5,7 @@ from requests.structures import CaseInsensitiveDict
 
 gdrive = Tk()
 gdrive.title("Free Shared Drive")
-gdrive.geometry("280x100")
+gdrive.geometry("320x150")
 gdrive.resizable(0,0)
 gdrive.iconbitmap('gdrive.ico')
 
@@ -37,7 +37,12 @@ mail.grid(row=141, column=100)
 no_abuse = Label(gdrive, text = "Please don't abuse !")
 no_abuse.grid(row=145)
 
+caution = Label(gdrive, text = "Don't store personal informations \n inside the shared drive.")
+caution2 = Label(gdrive, text = "We don't know who is the owner !")
+caution.grid(row=146)
+caution2.grid(row=147)
+
 send = Button(gdrive, text="Send !", command=send_action)
-send.grid(row=146, column=100)
+send.grid(row=148, column=100)
 
 gdrive.mainloop()
