@@ -1,3 +1,4 @@
+# You need to have gdrive.ico in the same folder
 import tkinter
 import requests
 from tkinter import *
